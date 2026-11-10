@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "folium>=0.20.0",
     "geopandas>=1.2.0",
     "geopy>=2.5.0",
     "ipykernel>=7.4.0",
