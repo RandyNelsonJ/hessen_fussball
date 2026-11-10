@@ -53,3 +53,15 @@ def write_scraped_df(
 def add_liga_col(df, liga):
     df.loc[:, 'liga'] = liga
     return df
+
+
+def concat_scrape(liga_dict: dict):
+    # concatenate scrapped data
+    df_list = []
+    for liga, url in liga_dict.items():
+        df_list.append(add_liga_col(df=pd.read_csv(f'assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
+        df_list.append(add_liga_col(df=pd.read_csv(f'assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
+
+    bl_to_vl = pd.concat(df_list)
+
+    return bl_to_vl
