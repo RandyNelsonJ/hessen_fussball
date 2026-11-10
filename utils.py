@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from io import StringIO
+import datetime as dt
 
 # Custom headers to mimic a real browser
 def wiki_scraper(
@@ -13,8 +14,8 @@ def wiki_scraper(
     # Wikipedia URL
     url = url
 
-    # Send HTTP request with headers
-    response = requests.get(url, headers=headers) #https://requests.readthedocs.io/en/latest/
+    # Send HTTP request with headers; https://requests.readthedocs.io/en/latest/
+    response = requests.get(url, headers=headers)
 
     # Read HTML tables from the response content
     tables = pd.read_html(StringIO(response.text))
@@ -29,8 +30,8 @@ def wiki_scraper(
 
 
 def write_scraped_df(
-        d: dict=liga_dict,
-        file_date: str='20261103' # try str(dt.today())
+        d: dict,
+        file_date: str=dt.today() # try str(dt.today())
 ):
     '''
     write scrapped tables (all same format) from multiple URLs from a defined python dictionary
