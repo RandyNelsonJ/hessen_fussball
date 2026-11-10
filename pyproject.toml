@@ -7,7 +7,11 @@ authors = [
     { name = "RandyNelsonJ", email = "rjbest@umich.edu" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "geopandas>=1.2.0",
+    "ipykernel>=7.4.0",
+    "osmnx>=2.1.1",
+]
 
 [project.scripts]
 hessen-fussball = "hessen_fussball:main"

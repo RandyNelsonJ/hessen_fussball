@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 from io import StringIO
 
-# Scrape a list of rivers from South Africa @ https://en.wikipedia.org/wiki/List_of_rivers_of_South_Africa
 # Custom headers to mimic a real browser
 def wiki_scraper(
         url="https://en.wikipedia.org/wiki/List_of_rivers_of_South_Africa",
@@ -26,4 +25,30 @@ def wiki_scraper(
     # clean columns
     df.columns = df.columns.str.strip().str.lower()
 
+    return df
+
+
+def write_scraped_df(
+        d: dict=liga_dict,
+        file_date: str='20261103' # try str(dt.today())
+):
+    '''
+    write scrapped tables (all same format) from multiple URLs from a defined python dictionary
+
+    input
+    -----
+    d: dict with description as keys and URLs as values
+
+    '''
+
+    for k, url in d.items():
+        
+        wiki_scraper.wiki_scraper(
+            url=url,
+        ).to_csv(f'assets/{k}_{file_date}.csv', index=False)
+
+
+
+def add_liga_col(df, liga):
+    df.loc[:, 'liga'] = liga
     return df
