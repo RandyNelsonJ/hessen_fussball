@@ -31,7 +31,7 @@ def wiki_scraper(
 
 def write_scraped_df(
         d: dict,
-        file_date: str=dt.today() # try str(dt.today())
+        file_date: str=str(dt.date.today()) # try str(dt.today())
 ):
     '''
     write scrapped tables (all same format) from multiple URLs from a defined python dictionary
@@ -44,7 +44,7 @@ def write_scraped_df(
 
     for k, url in d.items():
         
-        wiki_scraper.wiki_scraper(
+        wiki_scraper(
             url=url,
         ).to_csv(f'assets/{k}_{file_date}.csv', index=False)
 
