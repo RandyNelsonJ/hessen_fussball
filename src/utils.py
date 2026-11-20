@@ -43,10 +43,10 @@ def wiki_scraper(
 
 def write_scraped_df(
         d: dict,
-        file_date: str=str(dt.date.today()) # try str(dt.today())
+        file_date: str=str(dt.date.today())
 ):
     '''
-    write scrapped tables (all same format) from multiple URLs from a defined python dictionary
+    write scraped tables (all same format) from multiple URLs from a defined python dictionary
 
     input
     -----
@@ -58,7 +58,7 @@ def write_scraped_df(
         
         wiki_scraper(
             url=url,
-        ).to_csv(f'assets/{k}_{file_date}.csv', index=False)
+        ).to_csv(f'../../assets/{k}_{str(dt.date.today())}.csv', index=False)
 
 
 
@@ -71,8 +71,8 @@ def concat_scrape(liga_dict: dict):
     # concatenate scrapped data
     df_list = []
     for liga, url in liga_dict.items():
-        df_list.append(add_liga_col(df=pd.read_csv(f'assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
-        df_list.append(add_liga_col(df=pd.read_csv(f'assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
+        df_list.append(add_liga_col(df=pd.read_csv(f'../../assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
+        df_list.append(add_liga_col(df=pd.read_csv(f'../../assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
 
     bl_to_vl = pd.concat(df_list)
 
