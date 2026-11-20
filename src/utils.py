@@ -3,25 +3,37 @@ import pandas as pd
 from io import StringIO
 import datetime as dt
 
-# Custom headers to mimic a real browser
+# https://github.com/kylerod22/siads593-water-sustainability/blob/main/08-rjbest-sungmiki-kylerod-2026winter/src/utils/wiki_scraper.py
 def wiki_scraper(
         url="https://en.wikipedia.org/wiki/List_of_rivers_of_South_Africa",
         headers={"User-Agent": "Chrome/107.0.0.0 Safari/537.36"},
         table=1,
-        # subset='Mouth / junction coordinates'
 ):
+    '''
+    Scrape a table from URL
+
+    input
+    -----
+    url: str - pass in any address where there is/are a/tables present
+    headers: dict - https://requests.readthedocs.io/en/latest/
+    table: int - tables from the url requested are indexed 0 to ...
+
+    return
+    ------
+    table from url: pd.DataFrame
+    '''
 
     # Wikipedia URL
     url = url
 
-    # Send HTTP request with headers; https://requests.readthedocs.io/en/latest/
+    # Send HTTP request with headers
     response = requests.get(url, headers=headers)
 
     # Read HTML tables from the response content
     tables = pd.read_html(StringIO(response.text))
 
     # the second table happens to be where it's at
-    df = tables[table]#.dropna(subset=subset)
+    df = tables[table]
 
     # clean columns
     df.columns = df.columns.str.strip().str.lower()
