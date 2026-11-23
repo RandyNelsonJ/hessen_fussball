@@ -53,7 +53,7 @@ def write_scraped_df(
     -----
     d: dict with description as keys and URLs as values
     path: path to directory
-    file_data: date with which data is associated
+    file_data: date with which data are associated
     '''
 
     for k, url in d.items():
@@ -87,25 +87,27 @@ def add_liga_col(
 def concat_scrape(
         liga_dict: dict,
         path: str='../../assets/',
-
+        file_date: str=str(dt.date.today())
 ) -> pd.DataFrame:
     '''
-    read and concatenate values of a dictionary with a specified path
+    iterate through a dictionaries keys, read and concatenate values of a dictionary with a specified path
 
     input
     -----
-    liga_dict: dict
+    liga_dict: dict with keys for file name in directory, f'{path}{key}_{date}.csv'
     path: path to directory
+    file_data: date with which data are associated
 
     return
     ------
-    pd.DataFrame with added column
+    concatenated pd.DataFrame
     '''
-    # concatenate scraped data
+    # start with creating a list of dfs to concat
     df_list = []
     for liga, url in liga_dict.items():
-        df_list.append(add_liga_col(df=pd.read_csv(f'{path}{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
+        df_list.append(add_liga_col(df=pd.read_csv(f'{path}{liga}_{file_date}.csv'), liga=liga))
 
+    # concatenate data
     bl_to_vl = pd.concat(df_list)
 
     return bl_to_vl
