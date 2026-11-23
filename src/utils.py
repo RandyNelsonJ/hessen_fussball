@@ -43,6 +43,7 @@ def wiki_scraper(
 
 def write_scraped_df(
         d: dict,
+        path: str='../../assets/',
         file_date: str=str(dt.date.today())
 ):
     '''
@@ -51,28 +52,59 @@ def write_scraped_df(
     input
     -----
     d: dict with description as keys and URLs as values
-
+    path: path to directory
+    file_data: date with which data is associated
     '''
 
     for k, url in d.items():
         
         wiki_scraper(
             url=url,
-        ).to_csv(f'../../assets/{k}_{str(dt.date.today())}.csv', index=False)
+        ).to_csv(f'{path}{k}_{file_date}.csv', index=False)
 
 
 
-def add_liga_col(df, liga):
+def add_liga_col(
+        df: pd.DataFrame,
+        liga: str
+) -> pd.DataFrame:
+    '''
+    add column to dataframe passed as a parameter with each value named as defined 2nd parameter
+
+    input
+    -----
+    df: pd.DataFrame
+    liga: string to be in each row of the added column
+
+    return
+    ------
+    pd.DataFrame with added column
+    '''
     df.loc[:, 'liga'] = liga
     return df
 
 
-def concat_scrape(liga_dict: dict):
-    # concatenate scrapped data
+def concat_scrape(
+        liga_dict: dict,
+        path: str='../../assets/',
+
+) -> pd.DataFrame:
+    '''
+    read and concatenate values of a dictionary with a specified path
+
+    input
+    -----
+    liga_dict: dict
+    path: path to directory
+
+    return
+    ------
+    pd.DataFrame with added column
+    '''
+    # concatenate scraped data
     df_list = []
     for liga, url in liga_dict.items():
-        df_list.append(add_liga_col(df=pd.read_csv(f'../../assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
-        df_list.append(add_liga_col(df=pd.read_csv(f'../../assets/{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
+        df_list.append(add_liga_col(df=pd.read_csv(f'{path}{liga + '_' + str(dt.date.today())}.csv'), liga=liga))
 
     bl_to_vl = pd.concat(df_list)
 
