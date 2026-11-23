@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from io import StringIO
 import datetime as dt
+import osmnx as ox
 
 # https://github.com/kylerod22/siads593-water-sustainability/blob/main/08-rjbest-sungmiki-kylerod-2026winter/src/utils/wiki_scraper.py
 def wiki_scraper(
@@ -111,3 +112,23 @@ def concat_scrape(
     bl_to_vl = pd.concat(df_list)
 
     return bl_to_vl
+
+
+def manual_geocode(
+        d: dict,
+        key: str=input('key:'),
+        query: str=input('query:'),
+        file: str='manually_geocoded.csv'
+):
+    '''
+    use key and query to create a geodataframe with ox.geocode_to_gdf(query), then write the gdf to an existing file
+
+    input
+    -----
+    d: dict
+    key: any str associated with the query
+    query: locational
+    file: .csv file
+    '''
+    d[key] = ox.geocode_to_gdf(query)
+    pd.concat([v for k, v in d.items()]).to_csv(file, index=False)
