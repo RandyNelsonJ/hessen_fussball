@@ -1,0 +1,859 @@
+{'SG Klei./Hun./Doh.':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.77793 51.32669, 9.77806 51.3266, 9...   9.777935   51.326601   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0   9.778236   51.326788  140187399      way  445922500  51.326695  9.778085   
+ 
+       class   type  place_rank  importance addresstype name  \
+ 0  building  house          30    0.000055    building        
+ 
+                                         display_name  
+ 0  16, Waldweg, Kleinalmerode, Witzenhausen, Werr...  ,
+ 'FSV Wolfhagen':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.48745 51.29332, 9.48746 51.29328, ...   9.487446   51.293215   
+ 
+    bbox_east  bbox_north   place_id osm_type      osm_id        lat       lon  \
+ 0   9.487808   51.293442  139481251      way  1448662642  51.293331  9.487628   
+ 
+      class      type  place_rank  importance addresstype             name  \
+ 0  highway  tertiary          26    0.053406    tertiary  Am Sportzentrum   
+ 
+                                         display_name  
+ 0  Am Sportzentrum, Südstadt, Kassel, Hesse, 3412...  ,
+ 'OSC Vellmar':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.42818 51.37467, 9.4283 51.37436, 9...    9.42818   51.342456   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.500924   51.382031  139608986  relation  532030  51.362249  9.469233   
+ 
+       class            type  place_rank  importance addresstype     name  \
+ 0  boundary  administrative          16    0.442743        town  Vellmar   
+ 
+                                        display_name  
+ 0  Vellmar, Landkreis Kassel, Hesse, 34246, Germany  ,
+ 'FSV Dörnberg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.35024 51.34163, 9.35031 51.34147, ...    9.35024   51.341468   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0    9.35047   51.341655  139534024      way  556265640  51.341562  9.350355   
+ 
+       class         type  place_rank  importance addresstype name  \
+ 0  building  residential          30     0.00005    building        
+ 
+                                         display_name  
+ 0  8, An der Esche, Dörnberg, Habichtswald, Landk...  ,
+ 'SG Barockstadt Fulda-Lehnerz II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.69309 50.57013, 9.69313 50.57008, ...   9.693085   50.570034   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id       lat       lon  \
+ 0    9.69353   50.570273  138212583      way  819170010  50.57015  9.693278   
+ 
+       class type  place_rank  importance addresstype  \
+ 0  building  yes          30    0.000064    building   
+ 
+                                        name  \
+ 0  Vereinshaus SG Barockstadt Fulda-Lehnerz   
+ 
+                                         display_name  
+ 0  Vereinshaus SG Barockstadt Fulda-Lehnerz, 16, ...  ,
+ 'SG Calden/\u200bMeimbressen':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.26478 51.42806, 9.265 51.42778, 9....   9.264784   51.365981   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat      lon  \
+ 0   9.444308   51.453451  139663943  relation  455491  51.396557  9.36422   
+ 
+       class            type  place_rank  importance   addresstype    name  \
+ 0  boundary  administrative          16    0.430147  municipality  Calden   
+ 
+                                       display_name  
+ 0  Calden, Landkreis Kassel, Hesse, 34379, Germany  ,
+ 'FC Britannia Eichenzell':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.64614 50.48031, 9.64662 50.48025, ...   9.646139   50.413083   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat      lon  \
+ 0    9.79039   50.511298  137597497  relation  454872  50.484723  9.70501   
+ 
+       class            type  place_rank  importance   addresstype        name  \
+ 0  boundary  administrative          16    0.416605  municipality  Eichenzell   
+ 
+                                         display_name  
+ 0  Eichenzell, Landkreis Fulda, Hesse, 36124, Ger...  ,
+ 'Tuspo Grebenstein':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.41351 51.44711, 9.41354 51.44701, ...    9.41351   51.447013   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0    9.41386   51.447142  139471455      way  194600344  51.447077  9.413686   
+ 
+       class    type  place_rank  importance addresstype name  \
+ 0  building  retail          30    0.000053    building        
+ 
+                                         display_name  
+ 0  26, Marktstraße, Kressenbrunnen, Grebenstein, ...  ,
+ 'SG Bronnzell':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.68489 50.51846, 9.68493 50.51845, ...   9.684893   50.518365   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0   9.685123   50.518507  138123133      way  444994622  50.518426  9.685016   
+ 
+       class type  place_rank  importance addresstype name  \
+ 0  building  yes          30    0.000064    building        
+ 
+                                         display_name  
+ 0  2, Wartburgstraße, Bronnzell, Fulda, Landkreis...  ,
+ 'Lichtenauer FV':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.71965 51.19196, 9.71971 51.19195, ...   9.719646   51.191901   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0   9.719862   51.192041  139601348      way  680009600  51.191986  9.719754   
+ 
+       class type  place_rank  importance addresstype name  \
+ 0  building  yes          30    0.000053    building        
+ 
+                                         display_name  
+ 0  21, Thüringer Straße, Hessisch Lichtenau, Werr...  ,
+ 'TSV Steinbach Haiger II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.1255 50.78829, 8.12729 50.78789, 8...     8.1255   50.693324   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id       lat       lon  \
+ 0    8.30014    50.85094  139205638  relation  215963  50.77528  8.212906   
+ 
+       class            type  place_rank  importance   addresstype    name  \
+ 0  boundary  administrative          16    0.462282  municipality  Haiger   
+ 
+                                      display_name  
+ 0  Haiger, Lahn-Dill-Kreis, Hesse, 35708, Germany  ,
+ 'TSV Steinbach Haiger':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.1255 50.78829, 8.12729 50.78789, 8...     8.1255   50.693324   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id       lat       lon  \
+ 0    8.30014    50.85094  139205638  relation  215963  50.77528  8.212906   
+ 
+       class            type  place_rank  importance   addresstype    name  \
+ 0  boundary  administrative          16    0.462282  municipality  Haiger   
+ 
+                                      display_name  
+ 0  Haiger, Lahn-Dill-Kreis, Hesse, 35708, Germany  ,
+ 'SG Walluf':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.12732 50.04151, 8.12737 50.04148, ...   8.127316   50.029814   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.175159   50.068806  138824249  relation  941754  50.039643  8.153086   
+ 
+       class            type  place_rank  importance   addresstype    name  \
+ 0  boundary  administrative          16     0.39558  municipality  Walluf   
+ 
+                                         display_name  
+ 0  Walluf, Rheingau-Taunus-Kreis, Hesse, 65396, G...  ,
+ 'FV Biebrich 02':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.11067 50.08016, 8.11069 50.07983, ...   8.110672   49.993237   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.386162    50.15181  137765116  relation   62496  50.082038  8.241656   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.667002        city  Wiesbaden   
+ 
+                 display_name  
+ 0  Wiesbaden, Hesse, Germany  ,
+ 'FC Ederbergland':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.49719 51.13695, 8.49728 51.13684, ...   8.497194   51.094639   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.720102   51.176868  139473492  relation  157388  51.109615  8.620102   
+ 
+       class            type  place_rank  importance addresstype        name  \
+ 0  boundary  administrative          16    0.455338     village  Hallenberg   
+ 
+                                         display_name  
+ 0  Hallenberg, Hochsauerlandkreis, North Rhine-We...  ,
+ 'SF/\u200bBG Marburg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.7198 50.7965, 8.72304 50.79595, 8....   8.719799   50.778679   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id       lat       lon  \
+ 0   8.779077   50.825255  378738112  relation  1128914  50.80303  8.751697   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  35037   
+ 
+                                         display_name  
+ 0  35037, Ockershausen, Marburg, Landkreis Marbur...  ,
+ 'SV Zeilsheim':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.47276 50.09982, 8.47313 50.09965, ...    8.47276   50.015353   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.800405   50.227142  138003787  relation   62400  50.110644  8.682092   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.757509        city  Frankfurt   
+ 
+                 display_name  
+ 0  Frankfurt, Hesse, Germany  ,
+ 'Türkischer SV Wiesbaden':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.11067 50.08016, 8.11069 50.07983, ...   8.110672   49.993237   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.386162    50.15181  137786809  relation   62496  50.082038  8.241656   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.667002        city  Wiesbaden   
+ 
+                 display_name  
+ 0  Wiesbaden, Hesse, Germany  ,
+ 'SSC Juno Burg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.19052 50.6684, 8.19065 50.66826, 8...   8.190522   50.627914   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.375899   50.724452  139374561  relation  215969  50.681962  8.285208   
+ 
+       class            type  place_rank  importance   addresstype     name  \
+ 0  boundary  administrative          16     0.49222  municipality  Herborn   
+ 
+                                       display_name  
+ 0  Herborn, Lahn-Dill-Kreis, Hesse, 35745, Germany  ,
+ 'SG Obbornh./\u200bBellersh.':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.79515 50.45217, 8.7954 50.45153, 8...   8.795151   50.426184   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.002162   50.528194  137159360  relation  418623  50.469617  8.917101   
+ 
+       class            type  place_rank  importance   addresstype    name  \
+ 0  boundary  administrative          16    0.450936  municipality  Hungen   
+ 
+                                       display_name  
+ 0  Hungen, Landkreis Gießen, Hesse, 35410, Germany  ,
+ 'TSF Heuchelheim':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.02988 49.14857, 8.03033 49.14854, ...    8.02988    49.12279   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.076432    49.15529  123088865  relation  1252724  49.142963  8.054045   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.457614  municipality   
+ 
+                   name                                       display_name  
+ 0  Heuchelheim-Klingen  Heuchelheim-Klingen, Landau-Land, Landkreis Sü...  ,
+ 'TuRa Niederhöchstadt':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.53157 50.17172, 8.53163 50.17165, ...   8.531572   50.127311   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.602734   50.174955  138327511  relation  423062  50.150474  8.560777   
+ 
+       class            type  place_rank  importance   addresstype      name  \
+ 0  boundary  administrative          16    0.471266  municipality  Eschborn   
+ 
+                                         display_name  
+ 0  Eschborn, Main-Taunus-Kreis, Hesse, 65760, Ger...  ,
+ 'SV Pars Neu-Isenburg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.59137 50.02436, 8.59147 50.0235, 8...   8.591374   50.014782   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id       lat       lon  \
+ 0   8.761564   50.064113  137620165  relation  659742  50.04642  8.671775   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.478289  municipality   
+ 
+            name                                       display_name  
+ 0  Neu-Isenburg  Neu-Isenburg, Landkreis Offenbach, Hesse, 6326...  ,
+ 'DJK Spfr. Bad Homburg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.49608 50.24527, 8.49638 50.24459, ...   8.496083   50.226572   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.639005   50.274534  379739117  relation  1188775  50.246103  8.564672   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  61350   
+ 
+                                         display_name  
+ 0  61350, Dornholzhausen, Bad Homburg vor der Höh...  ,
+ 'SV Bosnien/\u200bHerzegowina Ffm':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.47276 50.09982, 8.47313 50.09965, ...    8.47276   50.015353   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.800405   50.227142  138324404  relation   62400  50.110644  8.682092   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.757509        city  Frankfurt   
+ 
+                 display_name  
+ 0  Frankfurt, Hesse, Germany  ,
+ 'Spfrd. Seligenstadt':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.96934 50.02101, 8.96938 50.02048, ...   8.969345   49.987994   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.051366   50.043853  137877350  relation  659743  50.008476  9.010607   
+ 
+       class            type  place_rank  importance   addresstype        name  \
+ 0  boundary  administrative          16     0.39022  municipality  Mainhausen   
+ 
+                                         display_name  
+ 0  Mainhausen, Landkreis Offenbach, Hesse, 63533,...  ,
+ 'VfR Fehlheim':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.54344 49.72125, 8.54345 49.72121, ...   8.543443   49.653095   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0     8.7135   49.730293  124827797  relation  537055  49.681016  8.622758   
+ 
+       class            type  place_rank  importance addresstype      name  \
+ 0  boundary  administrative          16    0.508013        town  Bensheim   
+ 
+                                         display_name  
+ 0  Bensheim, Kreis Bergstraße, Hesse, 64625, Germany  ,
+ 'SG Bornheim/\u200bGW Ffm':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.47276 50.09982, 8.47313 50.09965, ...    8.47276   50.015353   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.800405   50.227142  381467688  relation   62400  50.110644  8.682092   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.757509        city  Frankfurt   
+ 
+                 display_name  
+ 0  Frankfurt, Hesse, Germany  ,
+ 'SV Rot-Weiss Walldorf II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.50382 49.98398, 8.50514 49.98172, ...   8.503817    49.94324   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.630312   50.026633  124996053  relation  444545  49.992384  8.562247   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.429407  municipality   
+ 
+                  name                                       display_name  
+ 0  Mörfelden-Walldorf  Mörfelden-Walldorf, Kreis Groß-Gerau, Hesse, 6...  ,
+ 'Kickers Offenbach II':                                             geometry  bbox_west  bbox_south  \
+ 0  MULTIPOLYGON (((8.76485 50.09925, 8.76499 50.0...   8.764849   50.067726   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.803009   50.102877  377991433  relation  1111882  50.087738  8.784693   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  63071   
+ 
+                                         display_name  
+ 0  63071, Buchhügel, Offenbach am Main, Hesse, Ge...  ,
+ 'Kickers Offenbach':                                             geometry  bbox_west  bbox_south  \
+ 0  MULTIPOLYGON (((8.76485 50.09925, 8.76499 50.0...   8.764849   50.067726   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.803009   50.102877  377991433  relation  1111882  50.087738  8.784693   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  63071   
+ 
+                                         display_name  
+ 0  63071, Buchhügel, Offenbach am Main, Hesse, Ge...  ,
+ 'SG Rot-Weiss Ffm':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.47276 50.09982, 8.47313 50.09965, ...    8.47276   50.015353   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.800405   50.227142  381622077  relation   62400  50.110644  8.682092   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.757509        city  Frankfurt   
+ 
+                 display_name  
+ 0  Frankfurt, Hesse, Germany  ,
+ '1. Hanauer FC':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.86059 50.14809, 8.86379 50.14753, ...   8.860587   50.124393   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.908923   50.195507  378737248  relation  1111870  50.162229  8.888247   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  63454   
+ 
+                                  display_name  
+ 0  63454, Mittelbuchen, Hanau, Hesse, Germany  ,
+ 'Spvgg.Neu-Isenburg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.59137 50.02436, 8.59147 50.0235, 8...   8.591374   50.014782   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id       lat       lon  \
+ 0   8.761564   50.064113  137620165  relation  659742  50.04642  8.671775   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.478289  municipality   
+ 
+            name                                       display_name  
+ 0  Neu-Isenburg  Neu-Isenburg, Landkreis Offenbach, Hesse, 6326...  ,
+ 'TSV Eintr. Stadtallendorf':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.94993 50.76339, 8.94998 50.76325, ...   8.949925   50.751393   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0    9.09895   50.910243  136940721  relation  225496  50.825198  9.029231   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.458515  municipality   
+ 
+              name                                       display_name  
+ 0  Stadtallendorf  Stadtallendorf, Landkreis Marburg-Biedenkopf, ...  ,
+ 'Türk Gücü Friedberg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.63653 50.31836, 8.63747 50.31771, ...   8.636527   50.289793   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.821188    50.36448  138391192  relation  393689  50.328272  8.747636   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.517028  municipality   
+ 
+                  name                                       display_name  
+ 0  Friedberg (Hessen)  Friedberg (Hessen), Wetteraukreis, Hesse, 6116...  ,
+ 'SV Darmstadt 98 U21':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.60715 49.86537, 8.60858 49.8653, 8...   8.607154   49.865301   
+ 
+    bbox_east  bbox_north   place_id osm_type    osm_id        lat       lon  \
+ 0   8.608599   49.866065  124771014      way  59140200  49.865698  8.607874   
+ 
+      class             type  place_rank  importance addresstype  \
+ 0  leisure  animal_training          30    0.000071     leisure   
+ 
+                  name                                       display_name  
+ 0  SV OG Darmstadt 08  SV OG Darmstadt 08, 280, Rheinstraße, Waldkolo...  ,
+ 'SV Darmstadt':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.60715 49.86537, 8.60858 49.8653, 8...   8.607154   49.865301   
+ 
+    bbox_east  bbox_north   place_id osm_type    osm_id        lat       lon  \
+ 0   8.608599   49.866065  124771014      way  59140200  49.865698  8.607874   
+ 
+      class             type  place_rank  importance addresstype  \
+ 0  leisure  animal_training          30    0.000071     leisure   
+ 
+                  name                                       display_name  
+ 0  SV OG Darmstadt 08  SV OG Darmstadt 08, 280, Rheinstraße, Waldkolo...  ,
+ 'FC Bayern Alzenau':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.02052 50.06121, 9.02053 50.06118, ...   9.020521   50.040774   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.155907   50.126616  137773330  relation  534148  50.085868  9.081375   
+ 
+       class            type  place_rank  importance   addresstype     name  \
+ 0  boundary  administrative          16    0.468508  municipality  Alzenau   
+ 
+                                         display_name  
+ 0  Alzenau, Landkreis Aschaffenburg, Bavaria, 637...  ,
+ 'FC Turabdin-Babylon':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.68865 50.487, 8.68901 50.48665, 8....   8.688654   50.474824   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.789692   50.557955  139128702  relation  418620  50.516552  8.734592   
+ 
+       class            type  place_rank  importance   addresstype      name  \
+ 0  boundary  administrative          16    0.425378  municipality  Pohlheim   
+ 
+                                         display_name  
+ 0  Pohlheim, Landkreis Gießen, Hesse, 35415, Germany  ,
+ 'FSV Fernwald':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.73936 50.5854, 8.73938 50.58538, 8...   8.739356   50.530635   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id       lat       lon  \
+ 0   8.823935    50.59345  138756697  relation  418621  50.56739  8.777099   
+ 
+       class            type  place_rank  importance   addresstype      name  \
+ 0  boundary  administrative          16    0.387278  municipality  Fernwald   
+ 
+                                         display_name  
+ 0  Fernwald, Landkreis Gießen, Hesse, 35463, Germany  ,
+ 'Hünfelder SV':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.66516 50.55504, 9.66527 50.55485, ...    9.66516   50.546546   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   9.703021   50.570424  378344216  relation  1135858  50.556537  9.685265   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  36037   
+ 
+                                         display_name  
+ 0  36037, Nordend, Fulda, Landkreis Fulda, Hesse,...  ,
+ 'SC 1960 Hanau':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.88974 50.14248, 8.8899 50.14242, 8...    8.88974   50.131296   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat      lon  \
+ 0   8.962914    50.15902  378343061  relation  1111865  50.144701  8.93199   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  63452   
+ 
+                            display_name  
+ 0  63452, Lamboy, Hanau, Hesse, Germany  ,
+ 'SV Rot-Weiss Walldorf':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.50382 49.98398, 8.50514 49.98172, ...   8.503817    49.94324   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.630312   50.026633  124996053  relation  444545  49.992384  8.562247   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.429407  municipality   
+ 
+                  name                                       display_name  
+ 0  Mörfelden-Walldorf  Mörfelden-Walldorf, Kreis Groß-Gerau, Hesse, 6...  ,
+ 'SV Hummetroth':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.91537 49.78718, 8.91565 49.78677, ...   8.915372   49.758364   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.025355   49.820422  125221219  relation  451778  49.789114  8.978962   
+ 
+       class            type  place_rank  importance   addresstype  \
+ 0  boundary  administrative          16    0.406998  municipality   
+ 
+                  name                                       display_name  
+ 0  Höchst im Odenwald  Höchst im Odenwald, Odenwaldkreis, Hesse, 6473...  ,
+ 'KSV Hessen Kassel II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.48335 51.29619, 9.48362 51.29587, ...   9.483348   51.294559   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0   9.485684   51.296379  139516517      way  323837270  51.295493  9.484752   
+ 
+      class           type  place_rank  importance addresstype  \
+ 0  leisure  sports_centre          30    0.000072     leisure   
+ 
+                 name                                       display_name  
+ 0  KSV Hessen Kassel  KSV Hessen Kassel, Damaschkestraße, Südstadt, ...  ,
+ 'SGV Heilbronn-Freiberg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.15131 48.94682, 9.15161 48.94669, ...   9.151307   48.915045   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.228513   48.950407  122925388  relation  405309  48.934554  9.192256   
+ 
+       class            type  place_rank  importance addresstype  \
+ 0  boundary  administrative          16    0.470921        town   
+ 
+                  name                                       display_name  
+ 0  Freiberg am Neckar  Freiberg am Neckar, VVG der Stadt Freiberg am ...  ,
+ 'VfR Mannheim':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.47138 49.47951, 8.47182 49.47933, ...   8.471383   49.469092   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.508447   49.491376  379738829  relation  1183843  49.479856  8.489746   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  68165   
+ 
+                                         display_name  
+ 0  68165, Schwetzingerstadt/Oststadt, Mannheim, B...  ,
+ 'SV Stuttgarter Kickers':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.0386 48.74132, 9.0389 48.74124, 9....   9.038601   48.692019   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.316023   48.866399  426459412  relation   62375  48.778449  9.180013   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.748292        city  Stuttgart   
+ 
+                             display_name  
+ 0  Stuttgart, Baden-Württemberg, Germany  ,
+ 'SC Freiburg II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((7.89014 47.98862, 7.89168 47.98833, ...   7.890139   47.987911   
+ 
+    bbox_east  bbox_north  place_id  osm_type   osm_id        lat       lon  \
+ 0   7.894414    47.99042  93176948  relation  1614760  47.989227  7.892315   
+ 
+      class           type  place_rank  importance addresstype  \
+ 0  leisure  sports_centre          30    0.000072     leisure   
+ 
+                  name                                       display_name  
+ 0  Sportclub Freiburg  Sportclub Freiburg, Kartäuserstraße, Waldsee, ...  ,
+ 'Eintracht Frankfurt II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.57394 50.10522, 8.574 50.10513, 8....   8.573938   50.104939   
+ 
+    bbox_east  bbox_north   place_id osm_type    osm_id        lat       lon  \
+ 0   8.574664   50.105373  138702567      way  25539002  50.105185  8.574282   
+ 
+      class           type  place_rank  importance addresstype        name  \
+ 0  leisure  sports_centre          30    0.000079     leisure  Niddahalle   
+ 
+                                         display_name  
+ 0  Niddahalle, Oeserstraße, Nied, West, Frankfurt...  ,
+ 'SSV Ulm 1846 Fußball':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.98255 48.40094, 9.98268 48.39851, ...   9.982546   48.393531   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat        lon  \
+ 0  10.017869   48.418904  380284748  relation  1141075  48.403974  10.000012   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  89073   
+ 
+                                        display_name  
+ 0  89073, Oststadt, Ulm, Baden-Württemberg, Germany  ,
+ '1. FSV Mainz 05 II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.24457 50.00091, 8.24458 50.00082, ...   8.244569   50.000161   
+ 
+    bbox_east  bbox_north   place_id osm_type      osm_id       lat       lon  \
+ 0   8.246618   50.001498  139036464      way  1374173989  50.00087  8.245563   
+ 
+      class     type  place_rank  importance addresstype             name  \
+ 0  leisure  stadium          30    0.452654     leisure  Bruchwegstadion   
+ 
+                                         display_name  
+ 0  Bruchwegstadion, Dr.-Martin-Luther-King-Weg, M...  ,
+ '1. FC Kaiserslautern II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((7.6271 49.43339, 7.62778 49.4316, 7....   7.627101   49.358707   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   7.870682   49.495127  118136131  relation   62652  49.443217  7.768995   
+ 
+       class            type  place_rank  importance addresstype  \
+ 0  boundary  administrative          12    0.620904        city   
+ 
+              name                                   display_name  
+ 0  Kaiserslautern  Kaiserslautern, Rhineland-Palatinate, Germany  ,
+ 'MSV Duisburg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((6.73832 51.46543, 6.73928 51.46341, ...   6.738323   51.457103   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id       lat       lon  \
+ 0   6.794171   51.486078  378733728  relation  2015812  51.47121  6.769843   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  47137   
+ 
+                                         display_name  
+ 0  47137, Mittelmeiderich, Meiderich/Beeck, Duisb...  ,
+ 'SV Wehen Wiesbaden':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.24 50.0695, 8.24222 50.06969, 8.24...   8.239995   50.057044   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.276668   50.089211  377985698  relation  1189602  50.071719  8.259118   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  65189   
+ 
+                                display_name  
+ 0  65189, Südost, Wiesbaden, Hesse, Germany  ,
+ 'VfB Stuttgart II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.0386 48.74132, 9.0389 48.74124, 9....   9.038601   48.692019   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.316023   48.866399  427397219  relation   62375  48.778449  9.180013   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.748292        city  Stuttgart   
+ 
+                             display_name  
+ 0  Stuttgart, Baden-Württemberg, Germany  ,
+ 'VfB Stuttgart':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.0386 48.74132, 9.0389 48.74124, 9....   9.038601   48.692019   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   9.316023   48.866399  427397219  relation   62375  48.778449  9.180013   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.748292        city  Stuttgart   
+ 
+                             display_name  
+ 0  Stuttgart, Baden-Württemberg, Germany  ,
+ 'TSG Hoffenheim II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.83986 49.2687, 8.84004 49.26794, 8...   8.839861   49.267861   
+ 
+    bbox_east  bbox_north   place_id osm_type     osm_id        lat       lon  \
+ 0   8.842463   49.269044  123703783      way  627140747  49.268391  8.841189   
+ 
+      class           type  place_rank  importance addresstype  \
+ 0  leisure  sports_centre          30     0.00006     leisure   
+ 
+                               name  \
+ 0  Trainingsgelände TSG Hoffenheim   
+ 
+                                         display_name  
+ 0  Trainingsgelände TSG Hoffenheim, Sinsheimer St...  ,
+ 'FC Ingolstadt 04':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((11.44193 48.74444, 11.44226 48.74384...  11.441926   48.743836   
+ 
+    bbox_east  bbox_north   place_id osm_type    osm_id        lat        lon  \
+ 0  11.443685   48.744783  126875690      way  30054952  48.744309  11.442805   
+ 
+      class   type  place_rank  importance addresstype         name  \
+ 0  leisure  pitch          30    0.356991     leisure  ESV Stadion   
+ 
+                                         display_name  
+ 0  ESV Stadion, Asamstraße, Ringsee, Südost, Ingo...  ,
+ 'Fortuna Düsseldorf':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((6.68881 51.22949, 6.6893 51.22937, 6...   6.688815   51.124375   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   6.939932   51.352487  112905686  relation   62539  51.225402  6.776314   
+ 
+       class            type  place_rank  importance addresstype        name  \
+ 0  boundary  administrative          12    0.731061        city  Dusseldorf   
+ 
+                                   display_name  
+ 0  Dusseldorf, North Rhine-Westphalia, Germany  ,
+ 'FC Würzburger Kickers':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((9.93155 49.7673, 9.93163 49.76727, 9...   9.931553   49.767227   
+ 
+    bbox_east  bbox_north   place_id osm_type    osm_id        lat       lon  \
+ 0   9.931978   49.767562  123905322      way  87849148  49.767377  9.931745   
+ 
+      class        type  place_rank  importance addresstype  \
+ 0  amenity  restaurant          30    0.000072     amenity   
+ 
+                            name  \
+ 0  F.C. Würzburger Kickers e.V.   
+ 
+                                         display_name  
+ 0  F.C. Würzburger Kickers e.V., 49, Mittlerer Da...  ,
+ 'SC Fortuna Köln':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((6.77253 51.06162, 6.77253 51.06162, ...    6.77253    50.83044   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   7.162028   51.084974  116309321  relation   62578  50.938361  6.959974   
+ 
+       class            type  place_rank  importance addresstype     name  \
+ 0  boundary  administrative          12    0.758303        city  Cologne   
+ 
+                                display_name  
+ 0  Cologne, North Rhine-Westphalia, Germany  ,
+ 'SG Sonnenhof Großaspach':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((6.94919 48.65956, 6.94921 48.65901, ...   6.949187   48.644304   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0    6.98621   48.663218  120435925  relation  2452610  48.654514  6.962424   
+ 
+       class            type  place_rank  importance addresstype    name  \
+ 0  boundary  administrative          16    0.583089     village  Aspach   
+ 
+                                         display_name  
+ 0  Aspach, Sarrebourg-Château-Salins, Moselle, Gr...  ,
+ 'VfL Wolfsburg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((10.78508 52.38142, 10.78512 52.37948...  10.785085   52.315956   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat        lon  \
+ 0  10.906665   52.433489  378733901  relation  2501330  52.381093  10.837756   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  38446   
+ 
+                                         display_name  
+ 0  38446, Barnstorf, Barnstorf-Nordsteimke, Wolfs...  ,
+ 'DSC Arminia Bielefeld':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.37782 51.97281, 8.37815 51.9712, 8...   8.377816   51.914871   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.663354   52.114773  141375559  relation   62646  52.019101  8.531007   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.635712        city  Bielefeld   
+ 
+                                  display_name  
+ 0  Bielefeld, North Rhine-Westphalia, Germany  ,
+ 'FC St. Pauli':                                             geometry  bbox_west  bbox_south  \
+ 0  MULTIPOLYGON (((8.1045 54.02505, 8.21099 53.98...   8.104499   53.395112   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat        lon  \
+ 0   10.32528    54.02765  142513516  relation   62782  53.550172  10.001316   
+ 
+       class            type  place_rank  importance addresstype     name  \
+ 0  boundary  administrative           8    0.787729        city  Hamburg   
+ 
+        display_name  
+ 0  Hamburg, Germany  ,
+ 'VfL Osnabrück':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.0577 52.26763, 8.05838 52.26756, 8...   8.057701   52.256321   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0   8.109421    52.29401  379733068  relation  1820488  52.273223  8.085389   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  49084   
+ 
+                                         display_name  
+ 0  49084, Schinkel, Osnabrück, Lower Saxony, Germany  ,
+ 'Karlsruher SC':                                             geometry  bbox_west  bbox_south  \
+ 0  MULTIPOLYGON (((8.3657 49.021, 8.3662 49.02079...   8.365699   47.475409   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat      lon  \
+ 0  11.064322   49.111997  121746279  relation  3350207  49.101853  8.43312   
+ 
+      class        type  place_rank  importance addresstype  \
+ 0  amenity  university          30    0.572073     amenity   
+ 
+                                 name  \
+ 0  Karlsruhe Institute of Technology   
+ 
+                                         display_name  
+ 0  Karlsruhe Institute of Technology, Ehingen (Do...  ,
+ 'SV Darmstadt 98':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.63805 49.84194, 8.64639 49.84276, ...    8.63805   49.835734   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id       lat       lon  \
+ 0   8.683819   49.867505  378731501  relation  1188886  49.85179  8.659142   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  64285   
+ 
+                                   display_name  
+ 0  64285, Bessungen, Darmstadt, Hesse, Germany  ,
+ 'SV Darmstadt 98 II':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.63805 49.84194, 8.64639 49.84276, ...    8.63805   49.835734   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id       lat       lon  \
+ 0   8.683819   49.867505  378731501  relation  1188886  49.85179  8.659142   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  64285   
+ 
+                                   display_name  
+ 0  64285, Bessungen, Darmstadt, Hesse, Germany  ,
+ 'Borussia Dortmund':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((7.45028 51.49323, 7.45031 51.4931, 7...   7.450278    51.49143   
+ 
+    bbox_east  bbox_north   place_id osm_type    osm_id        lat       lon  \
+ 0   7.453399   51.493725  114756954      way  17235929  51.492492  7.451855   
+ 
+      class     type  place_rank  importance addresstype               name  \
+ 0  leisure  stadium          30    0.571587     leisure  SIGNAL IDUNA PARK   
+ 
+                                         display_name  
+ 0  SIGNAL IDUNA PARK, 50, Strobelallee, Innenstad...  ,
+ 'Bayer 04 Leverkusen':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((7.00094 51.03865, 7.00094 51.03864, ...   7.000937   51.037381   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0    7.00357   51.039164  114987878  relation  5403784  51.038144  7.003096   
+ 
+      class     type  place_rank  importance addresstype      name  \
+ 0  leisure  stadium          30    0.558822     leisure  BayArena   
+ 
+                                         display_name  
+ 0  BayArena, 122-124, Bismarckstraße, Küppersteg,...  ,
+ 'SV Elversberg':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((7.06207 49.27179, 7.06219 49.27137, ...   7.062075   49.236768   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat       lon  \
+ 0    7.19357   49.309895  121027869  relation  1184823  49.278838  7.115671   
+ 
+       class            type  place_rank  importance addresstype  \
+ 0  boundary  administrative          16    0.464387        town   
+ 
+             name                                       display_name  
+ 0  Sankt Ingbert  Sankt Ingbert, Saarpfalz-Kreis, Saarland, 6638...  ,
+ 'SC Paderborn 07':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.63629 51.75811, 8.63634 51.7581, 8...   8.636287   51.654235   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.900587   51.800838  139989860  relation  148074  51.717704  8.752653   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          16    0.619121        city  Paderborn   
+ 
+                                         display_name  
+ 0  Paderborn, Kreis Paderborn, North Rhine-Westph...  ,
+ '1. FC Union Berlin':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((13.54563 52.47263, 13.55289 52.4692,...  13.545629   52.440842   
+ 
+    bbox_east  bbox_north   place_id  osm_type   osm_id        lat        lon  \
+ 0  13.611361   52.481119  377987122  relation  1397576  52.462839  13.578872   
+ 
+       class         type  place_rank  importance addresstype   name  \
+ 0  boundary  postal_code          21     0.12001    postcode  12555   
+ 
+                                         display_name  
+ 0  12555, Köpenick, Treptow-Köpenick, Berlin, Ger...  ,
+ 'SG Rot-Weiss Ffm.':                                             geometry  bbox_west  bbox_south  \
+ 0  POLYGON ((8.47276 50.09982, 8.47313 50.09965, ...    8.47276   50.015353   
+ 
+    bbox_east  bbox_north   place_id  osm_type  osm_id        lat       lon  \
+ 0   8.800405   50.227142  381622077  relation   62400  50.110644  8.682092   
+ 
+       class            type  place_rank  importance addresstype       name  \
+ 0  boundary  administrative          12    0.757509        city  Frankfurt   
+ 
+                 display_name  
+ 0  Frankfurt, Hesse, Germany  }
