@@ -132,7 +132,11 @@ def manual_geocode(
     '''
     key = input('key:')
     query = input('query:')
-    d[key] = ox.geocode_to_gdf(query)
+    try:
+        d[key] = ox.geocode_to_gdf(query)
+    except:
+        print('try again, or be more specific')
+        d[key] = ox.geocode_to_gdf(query)
     df = d[key]
     df['mannschaft'] = key
     pd.concat([v for k, v in d.items()]).to_csv(file, index=False)
